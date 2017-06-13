@@ -11,10 +11,10 @@ function error404()
 
 function databasefout()
 {
-	echo "Database actie is kon niet uitgevoerd worden.";
+	echo "Database actie kon niet uitgevoerd worden.";
 }
 
 function editfout()
 {
-	echo "Het is niet gelukt om de data aan te passen";
+	echo "Het is niet gelukt om de data aan te passen.";
 }

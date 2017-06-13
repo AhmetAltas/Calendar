@@ -1,8 +1,8 @@
-<form action="/Kalender/framework/birthday/editSave/ " method="POST">
+<form action=" <?= URL ?>birthday/editSave/ " method="POST">
 		
 		<input type="hidden" name="id" value="<?= $birthday['id'] ?>"><br>
 
-	
+	<h2>Pas hier je gegevens aan.</h2>
 
 	Person:<input type="text" name="person" value="<?= $birthday['person'] ?>"><br>
 
@@ -10,7 +10,7 @@
 
 	Month: <input type="text" name="month" value="<?= $birthday['month'] ?>"><br>
 
-	year: <input type="text" name="year" value="<?= $birthday['year'] ?>"><br>
+	Year: <input type="text" name="year" value="<?= $birthday['year'] ?>"><br>
 
 
 
